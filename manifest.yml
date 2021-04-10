@@ -1,0 +1,20 @@
+name: 'AKASHI Custom Sound'
+description: 'AKASHIの出勤/退勤音声を変更します'
+version: '<%= version %>'
+manifest_version: 3
+permissions:
+  - 'storage'
+  - 'unlimitedStorage'
+content_scripts:
+  - matches:
+      - 'https://atnd.ak4.jp/mypage/punch*'
+    js:
+      - 'js/contentScript.js'
+icons:
+  16: 'img/16.png'
+  24: 'img/24.png'
+  32: 'img/32.png'
+  48: 'img/48.png'
+  128: 'img/128.png'
+  256: 'img/256.png'
+  512: 'img/512.png'

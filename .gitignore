@@ -1,0 +1,4 @@
+/_dist
+/app
+/node_modules
+*.log

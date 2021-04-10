@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "allowJs": true,
+    "rootDir": ".",
+    "lib": ["esnext", "dom"],
+    "types": ["@types/node", "@types/react", "@types/chrome"],
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"]
+}
