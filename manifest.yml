@@ -9,6 +9,8 @@ content_scripts:
   - matches:
       - 'https://atnd.ak4.jp/mypage/punch*'
       - 'https://atnd.ak4.jp/*/mypage/punch*'
+      - 'https://atnd-awj.ak4.jp/mypage/punch*'
+      - 'https://atnd-awj.ak4.jp/*/mypage/punch*'
     js:
       - 'js/contentScript.js'
 icons:
